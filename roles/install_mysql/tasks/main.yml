@@ -1,0 +1,6 @@
+--- 
+- name: Instalation mysql
+  apt:
+    name: mysql
+    state: latest
+    update_cache: yes
