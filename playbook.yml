@@ -1,6 +1,0 @@
---- 
-- hosts: docker
-  become: yes
-  become_method: sudo
-  roles: 
-    - install_nginx
